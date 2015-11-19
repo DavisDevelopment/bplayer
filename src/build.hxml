@@ -1,0 +1,15 @@
+
+-cp tannus/
+-cp gryffin/
+-D chromeapp
+-debug
+
+--each
+
+-main Background
+-js ../dist/chrome/scripts/background.js
+
+--next
+
+-main Player
+-js ../dist/chrome/scripts/player.js
